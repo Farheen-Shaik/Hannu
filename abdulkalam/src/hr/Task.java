@@ -16,7 +16,7 @@ public class Task {
 		// Create FireFox browser object.
 
 		WebDriver driver = new ChromeDriver();
-
+//Launch site
 		driver.get("http://124.123.41.5:8081/bamsa");
 		driver.findElement(By.xpath("//*[@class='fa fa-laptop']")).click();
 		       driver.findElement(By.xpath("(//*[@name='username'])[2]")).sendKeys("PDT36");  
